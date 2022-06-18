@@ -13,7 +13,7 @@ untuk yang tidak paham.
 Coba-coba saja, nanti akan paham sedikit demi sedikit.
 ### Menambahkan sumber(Source) novel
 Ketika pertama di install, aplikasi ini tidak memiliki sumber novel sama sekali, untuk menambahkan 
-sumber novel, anda bisa mengunduh file [ini](https://github.com/rektpartyaftermath/Legado-Book-Source-id-eng/blob/main/bookSource.json), kemudian
+sumber novel, anda bisa mengunduh file [ini](https://raw.githubusercontent.com/rektpartyaftermath/Legado-Book-Source-id-eng/main/bookSource.json), kemudian
 buka Legado lalu ke tab me(tab yang paling kanan bawah), kemudian ke source management, klik titik tiga di pojok kanan atas, pilih import local, pilih app file picker, kemudian cari file yang diunduh tadi.
 Untuk saat ini, hanya terdapat 4 source novel, yaitu:
 - MTLNovel English
