@@ -27,5 +27,5 @@ menambahkan 1 judul ke Legado, dengan cara, buka sebuah novel dari mtlnovel, pas
 Kedepannya diharapkan bisa lebih banyak dan komplit source nya.
 Khusus untuk LightNovelPub, setiap sebelum digunakan, sentuh dan tahan LightNovelPub di tab Discovery, kemudian akan muncul opsi Login, pilih opsi Login, tunggu hingga cloudflare scan nya selesai dan terus dialihkan ke home LightNovelPub, lalu tekan centang di pojok kanan atas, ulangi langkah ini jika hasil Discovery kosong(empty).
 ### Membuat source sendiri
-Untuk mengedit atau membuat source, bisa dilakukan dalam tab me>source management, Legado menggunakan Jsoup untuk memparse html dari source tsb, ada juga sintaks-sintaks tertentu yang digunakan Legado, info lebih lanjut bisa ke sini, web tutor nya masih dalam bahasa cina, namun anda bisa menggunakan chrome translate untuk menerjemahkannya, sangat kompleks dan ga jelas bagi saya.
+Untuk mengedit atau membuat source, bisa dilakukan dalam tab me>source management, Legado menggunakan Jsoup untuk memparse html dari source tsb, ada juga sintaks-sintaks tertentu yang digunakan Legado, info lebih lanjut bisa ke [sini](https://alanskycn.gitee.io/teachme/Rule/source.html), web tutor nya masih dalam bahasa cina, namun anda bisa menggunakan chrome translate untuk menerjemahkannya, sangat kompleks dan ga jelas bagi saya.
 
