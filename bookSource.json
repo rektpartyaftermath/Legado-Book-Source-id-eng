@@ -1,0 +1,181 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "Id Source",
+    "bookSourceName": "Novelringan",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://novelringan.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 Dalvik/2 ( Linux; U; NEM-AL10 Build/HONORNEM-AL10;Youku;7.1.4;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Safari/537.36 (Baidu; P1 6.0) iPhone/7.1 Android/8.0 baiduboxapp/2.7.0.10\"\n}",
+    "lastUpdateTime": 1655531718761,
+    "loginUrl": "https://novelringan.com/",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "init": ""
+    },
+    "ruleContent": {
+      "content": "@css:div#nr-nv-content>p@text",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "@css:main.content>article",
+      "bookUrl": "@css:h2.entry-title>a@href",
+      "intro": "@css:div.entry-content>p@text",
+      "kind": "@css:div.lqx>span>a@text",
+      "name": "@css:h2.entry-title>a@text"
+    },
+    "ruleToc": {
+      "chapterList": "- @css:div.bxcl>ul>li",
+      "chapterName": "@css:a@text",
+      "chapterUrl": "@css:a@href"
+    },
+    "searchUrl": "https://novelringan.com/?s={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "English Source",
+    "bookSourceName": "Lightnovelpub",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lightnovelpub.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "New::https://www.lightnovelpub.com/genre/all/new/all/{{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 Dalvik/2 ( Linux; U; NEM-AL10 Build/HONORNEM-AL10;Youku;7.1.4;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Safari/537.36 (Baidu; P1 6.0) iPhone/7.1 Android/8.0 baiduboxapp/2.7.0.10\"\n}",
+    "lastUpdateTime": 1655532111935,
+    "loginUrl": "https://www.lightnovelpub.com/",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "@css:div.author>a.property-item@text",
+      "init": "",
+      "intro": "@css:div.summary>div.content>p@text",
+      "kind": "@css:div.categories>ul@text",
+      "name": "",
+      "tocUrl": "@css:nav.content-nav>a.grdbtn@href"
+    },
+    "ruleContent": {
+      "content": "@css:div.chapter-content>p@text"
+    },
+    "ruleExplore": {
+      "bookList": "@css:li.novel-item",
+      "bookUrl": "@css:div.item-body>h4.novel-title>a@href",
+      "kind": "@css:div.novel-stats>span.status@text",
+      "name": "@css:div.item-body>h4.novel-title>a@text"
+    },
+    "ruleSearch": {
+      "bookList": ""
+    },
+    "ruleToc": {
+      "chapterList": "@css:ul.chapter-list>li",
+      "chapterName": "@css:strong.chapter-title@text",
+      "chapterUrl": "@css:a@href"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "Made by me\nThe search function is not working properly, it will just give you exact result(case sensitive).",
+    "bookSourceGroup": "English Source",
+    "bookSourceName": "mtlnovel",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://mtlnovel.com",
+    "customOrder": 1,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "Daily-Rank::/daily-rank/\nDate-New::/novel-list/?orderby=date&order=desc&status=all&pg={{page}}\nDate-Old::/novel-list/?orderby=date&order=asc&status=all&pg={{page}}",
+    "lastUpdateTime": 1655483118796,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "@css:td#author@text",
+      "downloadUrls": "",
+      "init": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "@css:a.view-all@href"
+    },
+    "ruleContent": {
+      "content": "@css:p@text"
+    },
+    "ruleExplore": {
+      "bookList": "@css:div[class=box wide]",
+      "bookUrl": "@css:div[class=tmb-left]>a@href",
+      "intro": "@css:div[class=data-r]>p@text",
+      "kind": "@css:a[class=genre]@text",
+      "lastChapter": "@css:span[class=ch]@text",
+      "name": "@css:div[class=data-r]>a[class=list-title]@text"
+    },
+    "ruleSearch": {
+      "author": "@css:td[id=author]@text",
+      "bookList": "@css:main.container",
+      "bookUrl": "@css:a.view-all@href",
+      "intro": "div.desc>p@text",
+      "kind": "@css:div#currentgen>a@text",
+      "name": "@css:h1.entry-title@text"
+    },
+    "ruleToc": {
+      "chapterList": "-div.ch-list>p>a",
+      "chapterName": ".ch-link@text",
+      "chapterUrl": ".ch-link@href"
+    },
+    "searchUrl": "/{{key}}/",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "Made by me\nThe search function is not working properly, it will just give you exact result(case sensitive).",
+    "bookSourceGroup": "Id Source",
+    "bookSourceName": "ID mtlnovel",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://id.mtlnovel.com",
+    "customOrder": 2,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "Daily-Rank::/daily-rank/\nDate-New::/novel-list/?orderby=date&order=desc&status=all&pg={{page}}\nDate-Old::/novel-list/?orderby=date&order=asc&status=all&pg={{page}}",
+    "lastUpdateTime": 1655470213733,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "@css:tr:contains(Author)@text##^.{9}",
+      "downloadUrls": "",
+      "init": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "@css:a.view-all@href"
+    },
+    "ruleContent": {
+      "content": "@css:p@text"
+    },
+    "ruleExplore": {
+      "bookList": "@css:div[class=box wide]",
+      "bookUrl": "@css:div[class=tmb-left]>a@href",
+      "intro": "@css:div[class=data-r]>p@text",
+      "kind": "@css:a[class=genre]@text",
+      "lastChapter": "@css:span[class=ch]@text",
+      "name": "@css:div[class=data-r]>a[class=list-title]@text"
+    },
+    "ruleSearch": {
+      "author": "@css:td[id=author]@text",
+      "bookList": "@css:main.container",
+      "bookUrl": "@css:a.view-all@href",
+      "intro": "div.desc>p@text",
+      "kind": "@css:div#currentgen>a@text",
+      "name": "@css:h1.entry-title@text"
+    },
+    "ruleToc": {
+      "chapterList": "-div.ch-list>p>a",
+      "chapterName": ".ch-link@text",
+      "chapterUrl": ".ch-link@href"
+    },
+    "searchUrl": "/{{key}}/",
+    "weight": 0
+  }
+]
