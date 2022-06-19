@@ -19,7 +19,7 @@ Untuk saat ini, hanya terdapat 4 source novel, yaitu:
 - MTLNovel English
 - LightNovelPub (cuma bisa urut dari tanggal, ga bisa search)
 - MTLNovel Id
-- NovelRingan (cuma bisa search)
+- NovelRingan
 
 Itupun masih belum 100% selesai, sebagian dari source tsb, masih dalam pengembangan, namun sudah bisa digunakan untuk membaca novel.  
 Untuk MTLNovel, tidak didukung fitur search novel, namun kolom search ini bisa digunakan untuk
