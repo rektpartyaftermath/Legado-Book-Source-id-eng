@@ -1,27 +1,33 @@
 [
   {
-    "bookSourceComment": "",
+    "bookSourceComment": "Aktifkan cronet dahulu di\nOther Settings>Cronet",
     "bookSourceGroup": "Id Source",
     "bookSourceName": "Novelringan",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://novelringan.com/",
+    "bookSourceUrl": "https://novelringan.com",
     "customOrder": 0,
     "enabled": true,
     "enabledCookieJar": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
+    "exploreUrl": "action::genre/action/page/{{page}}\nadult::genre/adult/page/{{page}}\nadventure::genre/adventure/page/{{page}}\ncelebrity::genre/celebrity/page/{{page}}\ncomedy::genre/comedy/page/{{page}}\ndrama::genre/drama/page/{{page}}\necchi::genre/ecchi/page/{{page}}\nfantasy::genre/fantasy/page/{{page}}\ngame::genre/game/page/{{page}}\ngames::genre/games/page/{{page}}\ngender-bender::genre/gender-bender/page/{{page}}\nharem::genre/harem/page/{{page}}\nhistorical::genre/historical/page/{{page}}\nhorror::genre/horror/page/{{page}}\nisekai::genre/isekai/page/{{page}}\njosei::genre/josei/page/{{page}}\nlife::genre/life/page/{{page}}\nlitrpg::genre/litrpg/page/{{page}}\nmartial-arts::genre/martial-arts/page/{{page}}\nmature::genre/mature/page/{{page}}\nmecha::genre/mecha/page/{{page}}\nmystery::genre/mystery/page/{{page}}\npsychological::genre/psychological/page/{{page}}\nrecarnation::genre/recarnation/page/{{page}}\nreincarnation::genre/reincarnation/page/{{page}}\nromance::genre/romance/page/{{page}}\nschool::genre/school/page/{{page}}\nschool-life::genre/school-life/page/{{page}}\nsci-fi::genre/sci-fi/page/{{page}}\nseinen::genre/seinen/page/{{page}}\nshotacon::genre/shotacon/page/{{page}}\nshoujo::genre/shoujo/page/{{page}}\nshoujo-ai::genre/shoujo-ai/page/{{page}}\nshounen::genre/shounen/page/{{page}}\nshounen-ai::genre/shounen-ai/page/{{page}}\nslice-of-life::genre/slice-of-life/page/{{page}}\nsmut::genre/smut/page/{{page}}\nsports::genre/sports/page/{{page}}\nsupernatural::genre/supernatural/page/{{page}}\ntragedy::genre/tragedy/page/{{page}}\nurban-life::genre/urban-life/page/{{page}}\nwuxia::genre/wuxia/page/{{page}}\nxianxia::genre/xianxia/page/{{page}}\nxuanhuan::genre/xuanhuan/page/{{page}}\nyaoi::genre/yaoi/page/{{page}}\nyuri::genre/yuri/page/{{page}}",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 Dalvik/2 ( Linux; U; NEM-AL10 Build/HONORNEM-AL10;Youku;7.1.4;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Safari/537.36 (Baidu; P1 6.0) iPhone/7.1 Android/8.0 baiduboxapp/2.7.0.10\"\n}",
-    "lastUpdateTime": 1655531718761,
-    "loginUrl": "https://novelringan.com/",
+    "lastUpdateTime": 1655564458234,
+    "loginUrl": "",
     "respondTime": 180000,
     "ruleBookInfo": {
-      "init": ""
+      "init": "",
+      "kind": ""
     },
     "ruleContent": {
       "content": "@css:div#nr-nv-content>p@text",
       "webJs": ""
     },
     "ruleExplore": {
-      "bookList": ""
+      "bookList": "@css:main.content>article",
+      "bookUrl": "@css:h2.entry-title>a@href",
+      "intro": "@css:div.entry-content>p@text",
+      "kind": "@css:div.lqx>span>a@text",
+      "name": "@css:h2.entry-title>a@text"
     },
     "ruleSearch": {
       "author": "",
@@ -51,7 +57,7 @@
     "enabledExplore": true,
     "exploreUrl": "New::https://www.lightnovelpub.com/genre/all/new/all/{{page}}",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 Dalvik/2 ( Linux; U; NEM-AL10 Build/HONORNEM-AL10;Youku;7.1.4;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Safari/537.36 (Baidu; P1 6.0) iPhone/7.1 Android/8.0 baiduboxapp/2.7.0.10\"\n}",
-    "lastUpdateTime": 1655532111935,
+    "lastUpdateTime": 1655596585423,
     "loginUrl": "https://www.lightnovelpub.com/",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -63,7 +69,9 @@
       "tocUrl": "@css:nav.content-nav>a.grdbtn@href"
     },
     "ruleContent": {
-      "content": "@css:div.chapter-content>p@text"
+      "content": "@css:div.chapter-content>p@text##lightno‌velpub##SKIP THIS!!",
+      "replaceRegex": "",
+      "sourceRegex": ""
     },
     "ruleExplore": {
       "bookList": "@css:li.novel-item",
@@ -72,13 +80,17 @@
       "name": "@css:div.item-body>h4.novel-title>a@text"
     },
     "ruleSearch": {
-      "bookList": ""
+      "bookList": "$..data[*]",
+      "name": "all"
     },
     "ruleToc": {
       "chapterList": "@css:ul.chapter-list>li",
       "chapterName": "@css:strong.chapter-title@text",
-      "chapterUrl": "@css:a@href"
+      "chapterUrl": "@css:a@href",
+      "isVolume": "@css:ul.chapter-list>li[data-volumeno]@data-volumeno",
+      "nextTocUrl": "@css:li.PagedList-skipToNext>a@href"
     },
+    "searchUrl": "search,{\n  \"method\": \"POST\",\n  \"body\": \"inputContent={{key}}\"\n}",
     "weight": 0
   },
   {
@@ -91,8 +103,8 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
-    "exploreUrl": "Daily-Rank::/daily-rank/\nDate-New::/novel-list/?orderby=date&order=desc&status=all&pg={{page}}\nDate-Old::/novel-list/?orderby=date&order=asc&status=all&pg={{page}}",
-    "lastUpdateTime": 1655483118796,
+    "exploreUrl": "Daily-Rank::/daily-rank/\nDate-New::/novel-list/?orderby=date&order=desc&status=all&pg={{page}}\nDate-New-completed::/novel-list/?orderby=date&order=desc&status=completed&pg={{page}}\nDate-Old::/novel-list/?orderby=date&order=asc&status=all&pg={{page}}",
+    "lastUpdateTime": 1655560082789,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "@css:td#author@text",
@@ -140,8 +152,8 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
-    "exploreUrl": "Daily-Rank::/daily-rank/\nDate-New::/novel-list/?orderby=date&order=desc&status=all&pg={{page}}\nDate-Old::/novel-list/?orderby=date&order=asc&status=all&pg={{page}}",
-    "lastUpdateTime": 1655470213733,
+    "exploreUrl": "Daily-Rank::/daily-rank/\nDate-New::/novel-list/?orderby=date&order=desc&status=all&pg={{page}}\nDate-New-completed::/novel-list/?orderby=date&order=desc&status=completed&pg={{page}}\nDate-Old::/novel-list/?orderby=date&order=asc&status=all&pg={{page}}",
+    "lastUpdateTime": 1655565012061,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "@css:tr:contains(Author)@text##^.{9}",
