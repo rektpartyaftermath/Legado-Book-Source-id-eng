@@ -15,15 +15,14 @@ Coba-coba saja, nanti akan paham sedikit demi sedikit.
 Ketika pertama di install, aplikasi ini tidak memiliki sumber novel sama sekali, untuk menambahkan 
 sumber novel, anda bisa mengunduh file bookSource.json di release(scroll terus ke bawah), kemudian
 buka Legado lalu ke tab me(tab yang paling kanan bawah), kemudian ke source management, klik titik tiga di pojok kanan atas, pilih import local, pilih app file picker, kemudian cari file yang diunduh tadi.
-Untuk saat ini, hanya terdapat 4 source novel, yaitu:
+Untuk saat ini, hanya terdapat source novel berikut:
 - MTLNovel English
 - LightNovelPub (cuma bisa urut dari tanggal, ga bisa search)
 - MTLNovel Id
 - NovelRingan
+- NovelFull
 
-Itupun masih belum 100% selesai, sebagian dari source tsb, masih dalam pengembangan, namun sudah bisa digunakan untuk membaca novel.  
-Untuk MTLNovel, tidak didukung fitur search novel, namun kolom search ini bisa digunakan untuk
-menambahkan 1 judul ke Legado, dengan cara, buka sebuah novel dari mtlnovel, pastikan alamat nya sebagai berikut: https://mtlnovel.com/judul-novel/ , kemudian hapus dan sisakan bagian /judul-novel/, lalu hapus lagi garis miring nya(/) menyisakan hanya judul-novel , lalu copy teks tsb, kemudian paste kan ke tab search di dalam aplikasi Legado.  
+Itupun masih belum 100% selesai, sebagian dari source tsb, masih dalam pengembangan.
 Kedepannya diharapkan bisa lebih banyak dan komplit source nya.
 Khusus untuk LightNovelPub, setiap sebelum digunakan, sentuh dan tahan LightNovelPub di tab Discovery, kemudian akan muncul opsi Login, pilih opsi Login, tunggu hingga cloudflare scan nya selesai dan terus dialihkan ke home LightNovelPub, lalu tekan centang di pojok kanan atas, ulangi langkah ini jika hasil Discovery kosong(empty).
 ### Membuat source sendiri
