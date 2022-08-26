@@ -4,6 +4,9 @@
 ### Fungsi Legado
 Legado adalah aplikasi open source yang ditujukan untuk membaca novel dengan sumber(source) novel yang bisa dengan mudah diedit dan ditambah oleh pengguna.
 Selain itu, Legado juga bisa digunakan untuk membaca buku lokal dengan format epub dan txt.
+### Catatan
+Harap dimengerti bahwa aplikasi ini tidak ditujukan kepada pengguna yang maunya terima beres, aplikasi ini perlu pemahaman dari penggunanya agar bisa digunakan secara 
+maksimal, karena settingan default aplikasi ini tidak ditujukan kepada pengguna diluar cina, jadi perlu diatur dulu pengaturannya.
 ### Penginstallan
 Untuk menginstall aplikasi Legado, diperlukan perangkat android minimal android lollipop, 
 tempat mendownloadnya, bisa ke [sini](https://android.izzysoft.de/repo/apk/io.legado.app.release)
