@@ -1,5 +1,7 @@
 # Legado-Book-Source-id-eng
 [![Down Count](https://img.shields.io/github/downloads/rektpartyaftermath/Legado-Book-Source-id-eng/latest/total?color=00ff0&style=flat-square)]()
+## Abandoned
+move to https://github.com/rektpartyaftermath/Legado-booksource-collection
 ## Pengenalan
 ### Fungsi Legado
 Legado adalah aplikasi open source yang ditujukan untuk membaca novel dengan sumber(source) novel yang bisa dengan mudah diedit dan ditambah oleh pengguna.
